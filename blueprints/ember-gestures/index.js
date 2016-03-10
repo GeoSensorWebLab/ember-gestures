@@ -8,7 +8,7 @@ module.exports = {
 
   afterInstall: function() {
     var bowerPackages = [
-      { name: 'hammer.js', target: '2.0.6' }
+      { name: 'hammerjs', target: '2.0.6' }
     ];
     return RSVP.all([
       this.addBowerPackagesToProject(bowerPackages),
